@@ -1,0 +1,4 @@
+The function is called reverseArray and it takes a list of integers a as input.
+Based on the problem, it must return the array to reverse.
+To solve the problem, I put a.Reverse(); method to flip the order of the elements in the list. 
+I also put return a; so that the function can give back the reversed list to the main program.
