@@ -1,0 +1,5 @@
+The problem that HackerRank gave me is called Print the Elements of a Linked List.
+In this problem, the function name is printLinkedList, and it takes the head of a linked list as input.
+Based on the problem given, it must print its data value on a new line.
+To solve this, I used a while loop to move through the list, and inside the loop I printed each node using Console.WriteLine(current.data);.
+After that I put "current = current.next; " to move the pointer from the current node to the next node in the linked list.
