@@ -1,0 +1,7 @@
+The problem that HackerRank gave me is called Compare two linked lists.
+In this problem, the function name is CompareLists; this function has two inputs, head1 and head2, it represent the starting nodes of two linked lists.
+base on the problem given, the function must check if the two linked lists are exactly the same.
+To solve this, I used a while loop that goes through both lists at the same time, checking if the data in each pair of nodes is equal.
+If at any point the values are not the same, the function immediately "returns false;".
+After finishing the loop, I check if both lists ended at the same time.
+If both are null at the end, meaning they have the same length and same values, the function returns (current1 == null && current2 == null;) true; otherwise, it returns false.
