@@ -1,0 +1,5 @@
+The problem that HackerRank gave me is called 2D Array – DS.
+In this problem, the function name is hourglassSum, and it takes a 2D list called arr as input.
+Inside the function, I used two for loops to go through every possible hourglass.
+For each hourglass, I calculated the sum by adding the numbers inside it and keeps track of the largest sum found.
+I compared each sum using if statement if (sum > maxSum) { maxSum = sum; } maxSum and updated it if the sum was bigger, I put return maxSum;
