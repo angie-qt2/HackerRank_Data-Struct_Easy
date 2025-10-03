@@ -1,0 +1,7 @@
+The problem that HackerRank gave me is called Array Left Rotation.
+In this problem, the function name is rotateLeft, and it takes two inputs: an integer d, 
+which is the number of times the array should be rotated, and a list of integers called arr.
+Based on the given problem, it must return the rotated array.
+To solve the problem, first, I created a new list called rotated with List<int> rotated = new List<int>(n);.
+After that I used for loop , and inside it I added elements to the rotated list using the formula arr[(i + d) % n], which shifts the elements to the left.
+After the for loop I put "return rotated; " to give the new rotated list back to the main program.
